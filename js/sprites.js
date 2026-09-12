@@ -9,7 +9,7 @@ const Sprites = (() => {
   const PAL = {
     // explorer
     H: '#6b3e1e', h: '#8a5a2b', f: '#f2c89a', E: '#22181a', S: '#c9a86a',
-    b: '#7a4a24', B: '#3a2412', P: '#7a5230', D: '#3b2a1a', m: '#c0392b',
+    b: '#7a4a24', B: '#3a2412', P: '#7a5230', D: '#3b2a1a', m: '#c0392b', z: '#4a2a14',
     // priest
     G: '#e0b83a', g: '#f2d878', k: '#2b1d12', W: '#f4efe0', R: '#b03a2e',
     // items
@@ -20,39 +20,40 @@ const Sprites = (() => {
   };
 
   // ---------- CHARACTERS (16 x 24) ----------
+  // Explorer: girl with long dark hair, explorer hat with a red bow, khaki shirt, skirt, boots
   const explorerBody = [
     '....hhhhhhhh....',
     '...hHHHHHHHHh...',
-    '...HHHHHHHHHH...',
+    '...HHHHmmHHHH...',
     '.HHHHHHHHHHHHHH.',
-    '....ffffffff....',
-    '....fEffffEf....',
-    '....ffffffff....',
-    '....ffffffff....',
-    '....ffmmmmff....',
-    '.....ffffff.....',
-    '....SSSSSSSS....',
-    '...SSSSSSSSSS...',
-    '..SSSSSSSSSSSS..',
+    '...zzffffffzz...',
+    '...zzfEffEfzz...',
+    '...zzffffffzz...',
+    '...zzffffffzz...',
+    '...zzffmmffzz...',
+    '...zzzffffzzz...',
+    '..zzSSSSSSSSzz..',
+    '..zzSSSSSSSSzz..',
+    '..zSSSSSSSSSSz..',
     '..SS.SSbbSS.SS..',
     '..ff.SSbbSS.ff..',
     '.....BBBBBB.....',
-    '.....PPPPPP.....',
-    '.....PPPPPP.....',
+    '....PPPPPPPP....',
+    '...PPPPPPPPPP...',
   ];
   const explorerLegsA = [
-    '.....PP..PP.....',
-    '.....PP..PP.....',
-    '.....PP..PP.....',
-    '.....PP..PP.....',
+    '.....ff..ff.....',
+    '.....ff..ff.....',
+    '.....ff..ff.....',
+    '.....ff..ff.....',
     '....DDD..DDD....',
     '....DDD..DDD....',
   ];
   const explorerLegsB = [
-    '....PPP..PPP....',
-    '...PPP....PPP...',
-    '...PP......PP...',
-    '...PP......PP...',
+    '....fff..fff....',
+    '...fff....fff...',
+    '...ff......ff...',
+    '...ff......ff...',
     '..DDD......DDD..',
     '..DDD......DDD..',
   ];
