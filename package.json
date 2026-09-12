@@ -1,0 +1,10 @@
+{
+  "name": "the-tower-of-babel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Tower of Babel - a Bible history explorer game about the Tower of Babel and ancient Mesopotamia",
+  "scripts": {
+    "dev": "npx serve . -l 8787",
+    "deploy": "npx wrangler pages deploy . --project-name thetowerofbabel --commit-dirty=true"
+  }
+}

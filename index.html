@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>The Tower of Babel</title>
+<meta name="description" content="A Bible history adventure game for kids about ancient Mesopotamia and the Tower of Babel.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="stage">
+  <canvas id="world" width="480" height="270"></canvas>
+
+  <div id="ui">
+
+    <!-- TITLE -->
+    <div class="screen" id="screen-title">
+      <div class="title-box">
+        <div class="kicker">A Bible History Explorer Adventure</div>
+        <h1>The Tower of Babel</h1>
+        <div class="sub">An Adventure in Ancient Mesopotamia</div>
+        <button class="big primary" id="btn-start">▶&nbsp; Start</button>
+      </div>
+    </div>
+
+    <!-- HUD -->
+    <div id="hud" hidden>
+      <div class="hud-level"></div>
+      <div class="hud-progress"></div>
+    </div>
+    <button id="btn-quiz" class="big primary pulse" hidden>❓ Answer the Question!</button>
+
+    <!-- DIALOG BOX -->
+    <div id="dialog" hidden>
+      <canvas class="portrait" width="32" height="32"></canvas>
+      <div class="dlg-body">
+        <div class="who"></div>
+        <div class="text"></div>
+      </div>
+      <button class="next" aria-label="Next">▶</button>
+    </div>
+
+    <!-- INFO CARD -->
+    <div id="card" hidden>
+      <div class="card-box">
+        <div class="img">
+          <img alt="">
+          <div class="placeholder"><canvas width="96" height="96"></canvas><span>Picture coming soon</span></div>
+          <div class="credit"></div>
+        </div>
+        <h2></h2>
+        <p></p>
+        <div class="row">
+          <button class="speak">🔊 Hear it again</button>
+          <button class="ok big primary">👍 Got it!</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- QUIZ -->
+    <div id="quiz" hidden>
+      <div class="q-box">
+        <div class="q-text"></div>
+        <div class="answers"></div>
+        <div class="feedback"></div>
+      </div>
+    </div>
+
+    <!-- VICTORY -->
+    <div class="screen" id="screen-victory" hidden>
+      <div class="title-box">
+        <div class="kicker">You reached the top!</div>
+        <h1>You did it!</h1>
+        <div class="sub">God came down to us through Jesus.</div>
+        <button class="big primary" id="btn-again">↻&nbsp; Play Again</button>
+      </div>
+    </div>
+
+    <div id="fade"></div>
+    <button id="btn-mute" aria-label="Sound on/off">🔊</button>
+  </div>
+</div>
+
+<div id="rotate"><div>📱↻<br>Please turn your device sideways to play!</div></div>
+
+<script src="js/data.js"></script>
+<script src="js/sprites.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>
