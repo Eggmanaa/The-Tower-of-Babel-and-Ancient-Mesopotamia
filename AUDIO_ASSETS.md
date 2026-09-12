@@ -225,11 +225,7 @@ All tracks must loop cleanly. 16-bit / chiptune style to match the art. Keep vol
 
 ## Status (2026-09-12)
 
-Installed and wired in: 6 music loops, 4 stingers (trimmed to ~3.5 s), 18 sound effects, 71 voice lines.
+Complete: 6 music loops, 4 stingers (trimmed to ~3.5 s), 18 sound effects, and **all 74 voice lines**.
+No text-to-speech fallback is used anywhere in the game.
 
-**Still missing — the game uses browser text-to-speech for these until the files arrive:**
-- `vo_l4_intro` — Priest: "Almost there! See how everyone has a job in our city."
-- `vo_l4_answer_c` — Narrator: "They used a garden hose"
-- `vo_l5_item_helpers` — Narrator: "Sadly, the king's servants were buried with him too. The people believed he would need helpers in the next life. The Bible teaches us that every person is precious to God."
-
-Unused for now: `vo_title_02`, `vo_pause`.
+Unused files: `vo_title_02`, `vo_pause`.
