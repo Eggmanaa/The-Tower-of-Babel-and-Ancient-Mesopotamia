@@ -56,29 +56,18 @@ assets/images/      Wikimedia Commons photos + credits.json (see IMAGE_ASSETS.md
 - **Photos**: `assets/images/<name>.jpg` from Wikimedia Commons only, plus an entry in
   `assets/images/credits.json` so the credit shows on the card.
 
-## Deploying to Cloudflare Pages
+## Deploying
 
-**Easiest:** double-click `deploy.cmd`. It logs you in (first time only), commits, pushes to
-GitHub, and deploys to Cloudflare Pages in one go.
+The GitHub repo is connected to Cloudflare Pages (project `thetowerofbabel`). **Every push to
+`main` redeploys the site automatically** in a couple of minutes.
 
-Manual steps if you prefer:
-
-One-time: create the project (project name `thetowerofbabel` gives the URL above).
+Easiest: double-click `deploy.cmd` — it commits everything and pushes. Or by hand:
 
 ```bash
-npx wrangler login
-npx wrangler pages project create thetowerofbabel --production-branch main
+git add -A && git commit -m "Update" && git push
 ```
 
-Every deploy after that:
-
-```bash
-npm run deploy
-```
-
-Or connect the GitHub repo in the Cloudflare dashboard (Workers & Pages → Create → Pages →
-Connect to Git) with **no build command** and output directory `/` — then every push to `main`
-deploys automatically.
+Build settings in Cloudflare: framework preset *None*, no build command, output directory `/`.
 
 ## Content rules
 
