@@ -58,6 +58,11 @@ assets/images/      Wikimedia Commons photos + credits.json (see IMAGE_ASSETS.md
 
 ## Deploying to Cloudflare Pages
 
+**Easiest:** double-click `deploy.cmd`. It logs you in (first time only), commits, pushes to
+GitHub, and deploys to Cloudflare Pages in one go.
+
+Manual steps if you prefer:
+
 One-time: create the project (project name `thetowerofbabel` gives the URL above).
 
 ```bash
