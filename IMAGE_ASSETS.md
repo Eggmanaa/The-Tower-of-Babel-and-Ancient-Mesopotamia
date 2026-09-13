@@ -13,6 +13,7 @@ file and prints the credit under each photo) and in `CREDITS.md`.
 
 | Game file | Wikimedia Commons file | Shows |
 |---|---|---|
+| `l1_rivers.jpg` | `File:The Euphrates River-Iraq.jpg` | The Euphrates with date palms (CC BY 2.0, Jayel Aheram) |
 | `l1_tablet.jpg` | `File:Cuneiform tablet- administrative account concerning the distribution of barley and emmer MET DP293244.jpg` | Clay tablet with cuneiform (Met Museum, CC0) |
 | `l1_bronze.jpg` | `File:Gudea copper alloy foundation figurines gods BM.jpg` | Cast metal figurines (British Museum) |
 | `l1_statue.jpg` | `File:Mesopotamia male worshiper 2750-2600 B.C.jpg` | Tell Asmar-style worshiper statue |

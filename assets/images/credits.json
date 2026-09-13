@@ -126,5 +126,13 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "Own work"
+  },
+  "l1_rivers": {
+    "file": "The Euphrates River-Iraq.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Euphrates_River-Iraq.jpg",
+    "author": "Jayel Aheram from Iraq,USA.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "Flickr"
   }
 }

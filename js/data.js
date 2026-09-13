@@ -30,6 +30,9 @@ const GAME_DATA = {
       name: 'Foundation & Writing',
       priestIntro: { who: 'priest', voice: 'vo_l1_intro', text: 'This is the bottom of the tower. Look at all our wonderful things!' },
       items: [
+        { id: 'rivers', name: 'The Two Rivers', icon: 'rivers', image: 'l1_rivers.jpg',
+          voice: 'vo_l1_item_rivers',
+          text: 'Mesopotamia means the land between two rivers. The Tigris and the Euphrates gave the people water to drink, fish to eat, and soft mud to make bricks for this tower!' },
         { id: 'tablet', name: 'Clay Tablet', icon: 'tablet', image: 'l1_tablet.jpg',
           voice: 'vo_l1_item_tablet',
           text: 'This is a clay tablet. People pressed a pointed stick into soft clay to make marks. This kind of writing is called cuneiform.' },

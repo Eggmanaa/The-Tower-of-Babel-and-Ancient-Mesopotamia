@@ -12,6 +12,7 @@ OUT = os.path.join(ROOT, 'assets', 'images')
 UA = {'User-Agent': 'TowerOfBabelKidsGame/1.0 (educational game; https://thetowerofbabel.pages.dev)'}
 
 PICK = {
+    'l1_rivers':    'File:The Euphrates River-Iraq.jpg',
     'l1_tablet':    'File:Cuneiform tablet- administrative account concerning the distribution of barley and emmer MET DP293244.jpg',
     'l1_bronze':    'File:Gudea copper alloy foundation figurines gods BM.jpg',
     'l1_statue':    'File:Mesopotamia male worshiper 2750-2600 B.C.jpg',

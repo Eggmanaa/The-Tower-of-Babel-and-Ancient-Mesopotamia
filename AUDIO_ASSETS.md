@@ -41,6 +41,7 @@ File naming: `vo_<scene>_<id>.mp3` (e.g. `vo_intro_01.mp3`).
 | File | Voice | Line |
 |---|---|---|
 | vo_l1_intro | Priest | "This is the bottom of the tower. Look at all our wonderful things!" |
+| vo_l1_item_rivers | Narrator | "Mesopotamia means the land between two rivers. The Tigris and the Euphrates gave the people water to drink, fish to eat, and soft mud to make bricks for this tower!" |
 | vo_l1_item_tablet | Narrator | "This is a clay tablet. People pressed a pointed stick into soft clay to make marks. This kind of writing is called **cuneiform**." |
 | vo_l1_item_bronze | Narrator | "This is made of bronze. Workers melted metal and poured it into a mold to make shapes." |
 | vo_l1_item_statue | Narrator | "This little statue is very old. People made statues of themselves to stand in the temple and pray." |
@@ -225,7 +226,9 @@ All tracks must loop cleanly. 16-bit / chiptune style to match the art. Keep vol
 
 ## Status (2026-09-12)
 
-Complete: 6 music loops, 4 stingers (trimmed to ~3.5 s), 18 sound effects, and **all 74 voice lines**.
-No text-to-speech fallback is used anywhere in the game.
+Complete: 6 music loops, 4 stingers (trimmed to ~3.5 s), 18 sound effects, 74 of 75 voice lines.
+
+**Needed — added later, uses text-to-speech until the file arrives:**
+- `vo_l1_item_rivers.mp3` — Narrator: "Mesopotamia means the land between two rivers. The Tigris and the Euphrates gave the people water to drink, fish to eat, and soft mud to make bricks for this tower!"
 
 Unused files: `vo_title_02`, `vo_pause`.
