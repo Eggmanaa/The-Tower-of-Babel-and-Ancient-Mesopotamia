@@ -226,9 +226,7 @@ All tracks must loop cleanly. 16-bit / chiptune style to match the art. Keep vol
 
 ## Status (2026-09-12)
 
-Complete: 6 music loops, 4 stingers (trimmed to ~3.5 s), 18 sound effects, 74 of 75 voice lines.
-
-**Needed — added later, uses text-to-speech until the file arrives:**
-- `vo_l1_item_rivers.mp3` — Narrator: "Mesopotamia means the land between two rivers. The Tigris and the Euphrates gave the people water to drink, fish to eat, and soft mud to make bricks for this tower!"
+Complete: 6 music loops, 4 stingers (trimmed to ~3.5 s), 18 sound effects, and **all 75 voice lines**.
+No text-to-speech fallback is used anywhere in the game.
 
 Unused files: `vo_title_02`, `vo_pause`.
